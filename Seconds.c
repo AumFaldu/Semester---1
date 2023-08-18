@@ -8,6 +8,6 @@ void main()
 	 hh = sec/3600;
 	 mm = (sec - (hh*3600))/60;
 	 ss = sec - hh*3600 - mm*60;
-	 printf("%d seconds = %d : %d : %d ", sec, hh, ss, mm);
+	 printf("HH : MM : SS = %d : %d : %d ",hh,mm,ss);
 
 }
