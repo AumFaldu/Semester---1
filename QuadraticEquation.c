@@ -3,7 +3,7 @@
 
 void main()
 {
-    float a,b,c,d;
+    float a,b,c,d,real,imaginary;
     //i = sqrt(-1)
     printf("The quadratic equation is in the form : ax^2 + bx + c = 0 \n");
     printf("Enter the value of a : \n");
@@ -13,6 +13,8 @@ void main()
     printf("Enter the value of c : \n");
     scanf("%f",&c);
     d = b*b - 4*a*c;
+    real = ((-1)*b)/(2*a);
+    imaginary = (sqrt((-1)*d))/(2*a);
     if(d == 0)
     {
         printf("Roots are real and equal \n");
@@ -21,11 +23,13 @@ void main()
     if(d > 0)
     {
         printf("Roots are real and unequal \n");
-        printf("Positive root : %f \n",(((-1)*b)+sqrt(d))/(2*a));
-        printf("Negative root : %f \n",(((-1)*b)-sqrt(d))/(2*a));
+        printf("First root : %f \n",(((-1)*b)+sqrt(d))/(2*a));
+        printf("Second root : %f \n",(((-1)*b)-sqrt(d))/(2*a));
     }
     if(d<0)
     {
-         printf("Roots are unreal and not possible");
+         printf("Roots are unreal and not possible \n");
+         printf("First Root : %f + i(%f) \n",real,imaginary);
+         printf("Second Root : %f - i(%f) \n",real,imaginary);
     }
 }
