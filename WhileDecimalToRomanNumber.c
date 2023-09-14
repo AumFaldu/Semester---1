@@ -1,7 +1,7 @@
 #include <stdio.h>
 void main()
 {
-    int dec,rom;
+    int dec;
     printf("Enter a Decimal value : ");
     scanf("%d",&dec);
     printf("Roman Numeral = ");
