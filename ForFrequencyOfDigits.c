@@ -10,6 +10,7 @@ void main()
        {
        	count = count+1;
        }
+     n/=10;
    }
    printf("Frequency of digits = %d",count);
 }
