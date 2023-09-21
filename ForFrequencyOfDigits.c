@@ -11,5 +11,5 @@ void main()
        	count = count+1;
        }
    }
-   printf("Frequency = %d",count);
+   printf("Frequency of digits = %d",count);
 }
