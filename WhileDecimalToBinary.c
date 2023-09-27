@@ -17,18 +17,7 @@ void main()
         place = place * 10;  
     }  
     
-    while(bin!=0)
-    {
-        if(bin%2==0)
-        {
-            printf("0");
-        }
-        else
-        {
-            printf("1");
-        }
-        bin/=10;
-    }
+    printf("\nBinary value = %d",bin);
   
     
 }  
