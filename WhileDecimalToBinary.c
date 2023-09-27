@@ -8,7 +8,7 @@ void main()
     scanf("%d", &n);  
   
     printf("\nBinary = ",n);  
-    while(n)  
+    while(n!=0)  
     {
          rem = n%2;
         n   = n / 2; 
