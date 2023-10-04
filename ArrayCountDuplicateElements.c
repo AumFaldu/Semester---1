@@ -16,6 +16,7 @@ void main()
         if(arr[i]==arr[j])
         {
             count = count + 1;
+            break;
         }
     }
     printf("Total Duplicate elements = %d",count);
