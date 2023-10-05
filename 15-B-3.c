@@ -1,33 +1,26 @@
 #include <stdio.h>  
 void main ()  
 {  
-    int i=0,n,temp=0,j;
+    int i=0,n,temp=0;
     printf("Enter value of n : ");
     scanf("%d",&n);
-    int arr[n];
+    int arr[n],j=n-1;
     for(i=0;i<n;i++)
     {
         printf("Enter value of %d element : ",i);
         scanf("%d",&arr[i]);
     }
     printf("\nAfter reversing : ");
-    if(n%2==0)
-    {
-    for(i=0;i<n/2;i++)
+    for(i=0;i<j;i++,j--)
     {
           temp = arr[i];
-          arr[n-i-1] = arr[i];
-          arr[n-i-1] = temp;
+          arr[i] = arr[j];
+          arr[j] = temp;
+         
+    printf("Value of %d Element = %d\n",i,arr[i]);
+    }
+    for(i=j;i<n;i++)
+    {
+         printf("Value of %d Element = %d\n",i,arr[i]);
          
     }
-    }
-    else
-    {
-         for(i=0;i<(n+1)/2;i++)
-    {
-          temp = arr[i];
-          arr[n-i-1] = arr[i];
-          arr[n-i-1] = temp;
-    }
-    }
-}  
