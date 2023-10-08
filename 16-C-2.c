@@ -13,21 +13,19 @@ void main()
     {
         for(j=0;j<cols;j++)
         {
-            printf("Arr[%d][%d] : ",i,j);
-            scanf("%d",&arr[i][j]);
-        }
-        printf("\n");
-    }
-    for(i=0;i<rows;i++)
-    {
-        for(j=0;j<cols;j++)
-        {
-            if(i>j)
+            if(i<=j)
+            {
+                printf("Arr[%d][%d] : ",i,j);
+                scanf("%d",&arr[i][j]);
+            }
+            else 
             {
                 arr[i][j] = 0;
             }
         }
+        printf("\n");
     }
+    
     for(i=0;i<rows;i++)
     {
         for(j=0;j<cols;j++)
