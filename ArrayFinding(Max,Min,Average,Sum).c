@@ -1,7 +1,8 @@
 #include<stdio.h>
 void main()
 {
-    int i=1,max,sum=0,min,avg=0,n;
+    int i=1,max,sum=0,min,n;
+    float avg;
     printf("Enter how many numbers you want : ");
     scanf("%d",&n);
     int arr[n];
@@ -25,8 +26,8 @@ void main()
        }
       sum = sum+arr[i];
     }
-        avg = sum/n;
-    printf("Average = %d\n",avg);
+        avg = (float)sum/(float)n;
+    printf("Average = %f\n",avg);
     printf("Sum = %d\n",sum);
     printf("Max = %d\n",max);
     printf("Min = %d\n",min);
