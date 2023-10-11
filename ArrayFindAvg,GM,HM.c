@@ -3,7 +3,7 @@
 void main()
 {
     int i,n,sum=0,x=1;
-    float y=0,avg,geo,har=0;
+    float avg,geo,har=0;
     printf("Enter value of n : ");
     scanf("%d",&n);
     int a[n];
