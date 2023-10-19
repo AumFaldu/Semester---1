@@ -1,6 +1,6 @@
 #include<stdio.h>
-int aum(int a,int b);
-int dhruv(int a,int b);
+int min(int a,int b);
+int max(int a,int b);
 void main()
 {
     int a,b,maximum,minimum;
