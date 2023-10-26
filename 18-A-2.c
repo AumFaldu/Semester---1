@@ -1,6 +1,6 @@
 #include<stdio.h>
-int min(int a,int b);
-int max(int a,int b);
+int min(int,int);
+int max(int,int);
 void main()
 {
     int a,b,maximum,minimum;
