@@ -1,5 +1,5 @@
 #include<stdio.h>
-float SI(float p,float r,float t);
+void SI(float p,float r,float t);
 void main()
 {
     float p,r,t;
@@ -11,7 +11,7 @@ void main()
     scanf("%f",&t);
     SI(p,r,t);
 }
-float SI(float p,float r,float t)
+void SI(float p,float r,float t)
 {
     printf("Simple Interest = %f",(p*r*t)/100.0);
 }
