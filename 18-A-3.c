@@ -5,9 +5,9 @@ void main()
     float p,r,t;
     printf("Enter Principle : ");
     scanf("%f",&p);
-    printf("Enter Rate : ");
+    printf("Enter Rate of Interest : ");
     scanf("%f",&r);
-    printf("Enter Time : ");
+    printf("Enter Time Period : ");
     scanf("%f",&t);
     SI(p,r,t);
 }
