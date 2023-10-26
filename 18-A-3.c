@@ -1,5 +1,5 @@
 #include<stdio.h>
-void SI(float p,float r,float t);
+void SI(float,float,float);
 void main()
 {
     float p,r,t;
