@@ -10,10 +10,10 @@ void main()
     scanf("%d",&b);
     swap(a,b);
 }
-void swap(int i,int j)
+void swap(int a,int b)
 {
-    i = i-j;
-    j = i+j;
-    i = j-i;
-    printf("After swapping\n value of a = %d \n value of b = %d ",i,j);
+    a = a-b;
+    b = a+b;
+    a = b-a;
+    printf("After swapping\n value of a = %d \n value of b = %d ",a,b);
 }
