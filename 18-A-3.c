@@ -3,7 +3,7 @@ void SI(float,float,float);
 void main()
 {
     float p,r,t;
-    printf("Enter Principle : ");
+    printf("Enter Principle Amount: ");
     scanf("%f",&p);
     printf("Enter Rate of Interest : ");
     scanf("%f",&r);
