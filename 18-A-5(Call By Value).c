@@ -8,12 +8,14 @@ void main()
     scanf("%d",&a);
     printf("Enter value of b : ");
     scanf("%d",&b);
+    printf("Before swapping\n value of a = %d \n value of b = %d ",a,b);
     swap(a,b);
+    printf("\nAfter swapping\n value of a = %d \n value of b = %d ",a,b);
 }
 void swap(int a,int b)
 {
-    a = a-b;
-    b = a+b;
-    a = b-a;
-    printf("After swapping\n value of a = %d \n value of b = %d ",a,b);
+    int temp=0;
+    temp = a;
+    a = b;
+    a = temp;
 }
