@@ -8,17 +8,24 @@ struct book
 };
 void main()
 {
-    struct book b;
-    printf("\nEnter title : ");
-    scanf("%s",b.title);
-    printf("\nEnter name of author : ");
-    scanf("%s",b.author);
-    printf("\nEnter publication : ");
-    scanf("%s",b.publication);
-    printf("\nEnter price : ");
-    scanf("%f",&b.price);
-    printf("\nTitle of book = %s",b.title);
-    printf("\nAuthor of book = %s",b.author);
-    printf("\nPublication of book = %s",b.publication);
-    printf("\nPrice of book = %f",b.price);
+    int i;
+    struct book b[3];
+    for(i=0;i<3;i++)
+    {
+    printf("\nEnter title of book %d : ",i+1);
+    scanf("%s",b[i].title);
+    printf("\nEnter name of author of book %d : ",i+1);
+    scanf("%s",b[i].author);
+    printf("\nEnter publication of book %d : ",i+1);
+    scanf("%s",b[i].publication);
+    printf("\nEnter price of book %d : ",i+1);
+    scanf("%f",&b[i].price);
+    }
+    for(i=0;i<3;i++)
+    {
+    printf("\nTitle of book %d = %s",i+1,b[i].title);
+    printf("\nAuthor of book %d = %s",i+1,b[i].author);
+    printf("\nPublication of book %d = %s",i+1,b[i].publication);
+    printf("\nPrice of book %d = %f",i+1,b[i].price);
+    }
 }
