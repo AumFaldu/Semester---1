@@ -7,7 +7,7 @@ struct s
 }t1,t2,t3;
 void main()
 {
-    int h,m,s;
+    int m,s;
     printf("Enter Seconds of time 1 : ");
     scanf("%d",&t1.ss);
     printf("Enter Seconds of time 2 : ");
@@ -23,7 +23,6 @@ void main()
     t3.ss = t1.ss + t2.ss;
     t3.mm = t1.mm + t2.mm;
     t3.hh = t1.hh + t2.hh;
-    h = t3.hh/60;
     m = t3.mm/60;
     s = t3.ss/60;
     if(t3.ss>=60)
