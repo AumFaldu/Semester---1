@@ -3,7 +3,7 @@ struct s
 {
     int feet;
     int inches;
-}d1,d2,d3;;
+}d1,d2,d3;
 void main()
 {
     int feet,inches;
