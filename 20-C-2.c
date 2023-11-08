@@ -28,7 +28,7 @@ void main()
     s = t3.ss/60;
     if(t3.ss>=60)
     {
-        t3.mm+=m;
+        t3.mm+=s;
         t3.ss-=60;
     }
     if(t3.mm>=60)
