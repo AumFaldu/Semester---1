@@ -4,14 +4,14 @@ struct name_struct
     char c[9];
     int id1;
     int id2;
-    float f;
+    double d;
 }s;
 union name_union
 {
     char c[9];
     int id1;
     int id2;
-    float f;
+    double d;
 }u;
 void main()
 {
