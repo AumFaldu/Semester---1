@@ -9,46 +9,7 @@ void main()
 }
 void words(int a)
 {
-        if(a>=90000)
-        {
-            printf("Ninety Thousand ");
-            a-=90000;
-        }
-        if(a>=80000)
-        {
-            printf("Eighty Thousand ");
-            a-=80000;
-        }
-        if(a>=70000)
-        {
-            printf("Seventy Thousand ");
-            a-=70000;
-        }
-        if(a>=60000)
-        {
-            printf("Sixty Thousand ");
-            a-=60000;
-        }
-        if(a>=50000)
-        {
-            printf("Fifty Thousand ");
-            a-=50000;
-        }
-        if(a>=40000)
-        {
-            printf("Fourty Thousand ");
-            a-=40000;
-        }
-        if(a>=30000)
-        {
-            printf("Thirty Thousand ");
-            a-=30000;
-        }
-        if(a>=20000)
-        {
-            printf("Twenty Thousand ");
-            a-=20000;
-        }
+
         if(a>=10000)
         {
             printf("Ten Thousand ");
@@ -183,6 +144,51 @@ void words(int a)
         {
            printf("Twenty ");
            a-=20;
+        }
+        if(a>=19)
+        {
+            printf("Nineteen ");
+            a-=19;
+        }
+        if(a>=18)
+        {
+            printf("EIghteen ");
+            a-=18;
+        }
+        if(a>=17)
+        {
+            printf("Seventeen ");
+            a-=17;
+        }
+        if(a>=16)
+        {
+            printf("Sixteen ");
+            a-=16;
+        }
+        if(a>=15)
+        {
+            printf("Fifteen ");
+            a-=15;
+        }
+        if(a>=14)
+        {
+            printf("Fourteen ");
+            a-=14;
+        }
+        if(a>=13)
+        {
+            printf("Thirteen ");
+            a-=13;
+        }
+        if(a>=12)
+        {
+            printf("Twelve ");
+            a-=12;
+        }
+        if(a>=11)
+        {
+            printf("Eleven ");
+            a-=11;
         }
             if(a>=10)
         {
