@@ -2,7 +2,7 @@
 void main()
 {
     int i,n;
-    char s[20];
+    char s[50];
     printf("Enter a string with stars : ");
     gets(s);
     printf("Enter a number of star which you want to remove : ");
