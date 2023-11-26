@@ -6,7 +6,7 @@ void main()
    char ch[50];
  
    f = fopen("file.txt","w");
-   printf("Enter a word: ");
+   printf("Enter data : ");
     gets(ch);
 
    fprintf(f,"%s",ch);
