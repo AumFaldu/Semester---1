@@ -10,7 +10,7 @@ void main()
     scanf("%d",&b);
     printf("Before swapping\n value of a = %d \n value of b = %d ",a,b);
     swap(a,b);
-    printf("\nAfter swapping\n value of a = %d \n value of b = %d ",a,b);
+    printf("\nAfter swapping value in main function\n value of a = %d \n value of b = %d ",a,b);
 }
 void swap(int a,int b)
 {
@@ -18,4 +18,5 @@ void swap(int a,int b)
     temp = a;
     a = b;
     a = temp;
+    printf("Value in swap function = %d %d\n",a,b);
 }
