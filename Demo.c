@@ -1,4 +1,4 @@
 #include<stdio.h>
 void main(){
-    printf("This is just a demo");
+    printf("This is a demo");
 }
