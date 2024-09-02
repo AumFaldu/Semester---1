@@ -11,11 +11,10 @@ void main()
         }
     }
     for(i=0;i<20;i++)
-    {   
+    {
         for(j=0;j<1;j++)
         {
         printf("\nMarks of student with roll no %d = %d",i+1,arr[i][j]);
         }
         printf("\n");
     }
-}
